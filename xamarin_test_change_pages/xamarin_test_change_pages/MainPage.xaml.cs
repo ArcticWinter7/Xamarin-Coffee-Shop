@@ -13,6 +13,8 @@ namespace xamarin_test_change_pages
         public MainPage()
         {
             InitializeComponent();
+
+            ImageSource myImageSource = ImageSource.FromFile("/Assets/cafe_logo.png");
         }
 
         private void menuButton_Clicked(object sender, EventArgs e)
