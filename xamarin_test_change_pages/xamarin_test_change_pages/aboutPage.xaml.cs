@@ -9,7 +9,7 @@ using Xamarin.Forms.Xaml;
 
 namespace xamarin_test_change_pages
 {
-    //[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class aboutPage : ContentPage
     {
         public aboutPage()

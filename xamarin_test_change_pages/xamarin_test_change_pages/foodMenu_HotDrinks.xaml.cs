@@ -16,5 +16,9 @@ namespace xamarin_test_change_pages
         {
             InitializeComponent();
         }
+        private void menuBackButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
     }
 }
