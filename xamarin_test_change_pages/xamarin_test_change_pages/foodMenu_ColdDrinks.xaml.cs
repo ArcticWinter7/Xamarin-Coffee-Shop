@@ -20,5 +20,6 @@ namespace xamarin_test_change_pages
         {
             Navigation.PushAsync(new MainPage());
         }
+
     }
 }

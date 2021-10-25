@@ -33,12 +33,16 @@
         <!--<Label Grid.Row="0" Text="&lt;" FontSize="40" Margin="10,0,0,0" VerticalOptions="Center" HorizontalOptions="Start"></Label>-->
         <!--main page content-->
 
-        <Button Grid.Row="2" ></Button>
-        <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Bagel" Margin="20"></Label>
+        <Button Grid.Row="2"></Button>
+        <Image Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Source="https://i.ibb.co/1bjPqmP/donut.png"></Image>
+        <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" FontSize="35" Text="Bagel" Margin="220,0,0,140"></Label>
+        <Label Grid.Row="2" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" FontSize="15" Text="Finely baked Bagel, fresh from the oven" Margin="220,0,0,260"></Label>
         <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$1.50" Margin="20"></Label>
 
         <Button Grid.Row="3" ></Button>
-        <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Eggs Benedict" Margin="20"></Label>
+        <Image Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Source="https://i.ibb.co/Jt6TwLc/bagel-thing.png"></Image>
+        <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" FontSize="35" Text="Eggs Benedict" Margin="220,0,0,140"></Label>
+        <Label Grid.Row="3" Grid.RowSpan="2" VerticalOptions="CenterAndExpand" HorizontalOptions="Start" FontSize="15" Text="Finely cooked Eggs, fresh from the frying pan" Margin="220,0,0,260"></Label>
         <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$6.50" Margin="20"></Label>
 
     </Grid>
