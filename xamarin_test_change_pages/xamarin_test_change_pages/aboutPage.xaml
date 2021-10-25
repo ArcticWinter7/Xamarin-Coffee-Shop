@@ -28,9 +28,9 @@
         </Grid.ColumnDefinitions>
 
         <!--Header content-->
-        <Button Grid.Column="0" Text="Menu" x:Name="toMenu" Clicked="menuButton_Clicked"></Button>
-        <Button Grid.Column="1" Text="About" x:Name="toAbout" Clicked="menuButton_Clicked"></Button>
-        <Button Grid.Column="2" Text="Map" x:Name="toMap" Clicked="menuButton_Clicked"></Button>
+        <Button Grid.Column="0" Text="Menu" Clicked="menuButton_Clicked"></Button>
+        <Button Grid.Column="1" Text="About" Clicked="menuButton_Clicked"></Button>
+        <Button Grid.Column="2" Text="Map" Clicked="menuButton_Clicked"></Button>
 
         <!--main page content-->
         <Image Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="3" Source="https://i.ibb.co/v4fdcQr/cafe-picture.jpg"></Image>
