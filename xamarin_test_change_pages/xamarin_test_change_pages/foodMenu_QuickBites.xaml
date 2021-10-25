@@ -2,11 +2,44 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="xamarin_test_change_pages.foodMenu_QuickBites">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    
+    <Grid class="maingrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <!--row 10-->
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <!--Header content-->
+        <Button Grid.Column="0" Text="Cold Drinks" FontSize="18" x:Name="menuBackButton1" Clicked="menuBackButton_Clicked"></Button>
+        <Button Grid.Column="0" Text="&lt;-" HorizontalOptions="Start" FontSize="18" x:Name="menuBackButton2" Clicked="menuBackButton_Clicked"></Button>
+        <!--<Label Grid.Row="0" Text="&lt;" FontSize="40" Margin="10,0,0,0" VerticalOptions="Center" HorizontalOptions="Start"></Label>-->
+        <!--main page content-->
+
+        <Button Grid.Row="2" ></Button>
+        <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Bagel" Margin="20"></Label>
+        <Label Grid.Row="2" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$1.50" Margin="20"></Label>
+
+        <Button Grid.Row="3" ></Button>
+        <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Eggs Benedict" Margin="20"></Label>
+        <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$6.50" Margin="20"></Label>
+
+    </Grid>
 </ContentPage>
