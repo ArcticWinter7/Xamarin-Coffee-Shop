@@ -34,5 +34,26 @@ namespace xamarin_test_change_pages
                     break;
             }
         }
+
+        private void foodMenuButton_Clicked(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+
+            switch (button.Text)
+            {
+                case "Espresso":
+                    Navigation.PushAsync(new foodMenu_Espresso()); //move to Menu page
+                    break;
+                case "Hot Drinks":
+                    Navigation.PushAsync(new foodMenu_HotDrinks()); //move to About page
+                    break;
+                case "Cold Drinks":
+                    Navigation.PushAsync(new foodMenu_ColdDrinks()); //move to Map page
+                    break;
+                case "Quick Bites":
+                    Navigation.PushAsync(new foodMenu_QuickBites()); //move to Map page
+                    break;
+            }
+        }
     }
 }

@@ -40,10 +40,10 @@
 
         <Image Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="3" Source="https://i.ibb.co/K6GLhJ2/cafe-logo.png"></Image>
 
-        <Button Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Espresso" Clicked="menuButton_Clicked"></Button>
-        <Button Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Hot Drinks" Clicked="menuButton_Clicked"></Button>
-        <Button Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Cold Drinks" Clicked="menuButton_Clicked"></Button>
-        <Button Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Quick Bites" Clicked="menuButton_Clicked"></Button>
+        <Button Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Espresso" x:Name="food_Espresso" Clicked="foodMenuButton_Clicked"></Button>
+        <Button Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Hot Drinks" x:Name="food_HotDrinks" Clicked="foodMenuButton_Clicked"></Button>
+        <Button Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Cold Drinks" x:Name="food_ColdDrinks" Clicked="foodMenuButton_Clicked"></Button>
+        <Button Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="3" Grid.RowSpan="2" Text="Quick Bites" x:Name="food_QuickBites" Clicked="foodMenuButton_Clicked"></Button>
 
 
 
