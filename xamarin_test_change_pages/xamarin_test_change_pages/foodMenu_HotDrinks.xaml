@@ -38,19 +38,19 @@
 
         <Button Grid.Row="3" ></Button>
         <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Caramel Macchiato" Margin="20"></Label>
-        <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$3.00" Margin="20"></Label>
+        <Label Grid.Row="3" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$4.25" Margin="20"></Label>
 
         <Button Grid.Row="4" ></Button>
         <Label Grid.Row="4" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Skinny Mocha" Margin="20"></Label>
-        <Label Grid.Row="4" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$3.50" Margin="20"></Label>
+        <Label Grid.Row="4" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$4.00" Margin="20"></Label>
 
         <Button Grid.Row="5" ></Button>
         <Label Grid.Row="5" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Hot Coffee" Margin="20"></Label>
-        <Label Grid.Row="5" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$0.75" Margin="20"></Label>
+        <Label Grid.Row="5" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$3.25" Margin="20"></Label>
 
         <Button Grid.Row="6" ></Button>
         <Label Grid.Row="6" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" FontSize="35" Text="Irish Coffee" Margin="20"></Label>
-        <Label Grid.Row="6" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$3.50" Margin="20"></Label>
+        <Label Grid.Row="6" VerticalOptions="CenterAndExpand" HorizontalOptions="End" FontSize="35" Text="$4.25" Margin="20"></Label>
 
     </Grid>
 </ContentPage>
