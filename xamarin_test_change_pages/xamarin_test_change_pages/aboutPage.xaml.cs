@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -33,6 +33,16 @@ namespace xamarin_test_change_pages
                     Navigation.PushAsync(new mapPage()); //move to Map page
                     break;
             }
+        }
+
+        private void facebookSocials_Clicked(object sender, EventArgs e)
+        {
+            Browser.OpenAsync("https://www.facebook.com/login.php", BrowserLaunchMode.External);
+        }
+
+        private void instagramSocials_Clicked(object sender, EventArgs e)
+        {
+            Browser.OpenAsync("https://www.instagram.com/accounts/login/", BrowserLaunchMode.SystemPreferred);
         }
     }
 }
