@@ -5,8 +5,8 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="600"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="0"></RowDefinition>
+            <RowDefinition Height="1000"></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
@@ -21,8 +21,8 @@
         <Button Grid.Column="1" Text="About" x:Name="toAbout" Clicked="menuButton_Clicked"></Button>
         <Button Grid.Column="2" Text="Map" x:Name="toMap" Clicked="menuButton_Clicked"></Button>
 
-
-        <Image Grid.Column="0" Aspect="Fill" Grid.Row="2" Grid.ColumnSpan="3" Scale="1" Source="https://i.ibb.co/jHdZ27q/location-coffee-shop.png"></Image>
+        
+        <Image Grid.Column="0" Aspect="AspectFill" Grid.Row="2" Grid.ColumnSpan="3"  Margin="0,0,0,0" Source="https://i.ibb.co/jHdZ27q/location-coffee-shop.png"></Image>
         <!--https://social.msdn.microsoft.com/Forums/en-US/a073b19f-7ceb-410e-9c82-e6c7d2b0cc41/how-to-fit-image-correctly-inside-a-grid?forum=xamarinforms-->
 
             
